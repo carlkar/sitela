@@ -63,12 +63,6 @@
 	height: 350px;
 	}
 
-	
-	section article p{
-		
-		color: #f00;
-	}
-
 }
 
 @media handheld, screen and (min-width: 473px) and (max-width: 662px){
