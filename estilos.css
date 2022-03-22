@@ -1,0 +1,152 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	outline: 100%;
+	box-sizing: border-box;
+	font-size: 100%;
+}
+
+body{
+	overflow: scroll;
+	overflow-x:hidden;
+}
+
+/*header*/
+
+header,section,footer{
+	width: 100%;
+	display: flex;
+	padding-top: 20px;
+}
+
+header{
+	background:#5959AB;
+	align-items: center;
+	display: block;
+}
+
+header h1{
+		font-family:'Sansita Swashed', cursive;
+		font-size: 60pt;
+		text-align: center;
+		margin: auto;
+}
+
+header nav{
+	display: flex;
+	margin: 0px;	
+}
+
+header nav ol{
+	list-style: none;
+	padding: 0px;
+	margin: auto;
+}
+
+header nav ol li{
+	text-align: center;
+	display: table-cell;
+	vertical-align: middle;
+	font-family: 'Lobster', cursive;
+	font-size: 30pt;
+	padding-right: 10px;
+	border-right: 1px solid #000;
+	border-radius: 0px 5px 0px 0px;
+}
+
+ header nav ol li:hover{
+	background: linear-gradient(to bottom, #5959AB, #9b9bcc);
+	border-radius:0px 5px 0px 0px ;
+}
+
+a{
+	text-decoration: none;
+	color: #000;
+}
+
+/* section */
+
+section{
+	 flex-flow: row wrap;
+	flex-flow: column;
+
+}
+
+section article{
+	width: 100%;
+	max-width: 960px;
+	display: block;
+	margin-left: auto;	
+	margin-right: auto;
+	text-align: center;
+	padding-bottom: 20px;
+
+}
+/* conteudo da section */
+.dataNiver{
+	width: 960px;
+	height: 90px;
+	background-color: rgba(221,221,221,0.9);
+	position: absolute;
+	margin-top:-404px ;
+	text-align: center;
+
+}
+
+img{
+
+	max-width: 960px;
+	height: 400px;
+
+}
+
+
+/* sombra de img */
+
+.configFt{
+	box-shadow:6px 6px 10px #888;
+	width: 100%;
+}
+
+
+/* formatação dos links da section */
+.link{
+	font-family: 'Dancing Script', cursive;
+	font-size: 30pt;
+	text-decoration-color: #5959AB;
+}
+
+/* footer */
+
+footer{
+	height: 50px;
+	/*margin:auto;*/
+	background-color: #bcbcdd;
+}
+
+footer p{
+	font-size: 12pt;
+	font-family: Arial, Verdana;
+	padding-top: 0px;
+	padding-left: 10px;
+}
+
+/* site 2 anos de namo */
+
+.txtdDeclaracao{
+	font-family:'Sansita Swashed', cursive;
+	font-size: 19pt;
+	text-align: justify;
+
+	word-spacing: 3px;
+	background-color: #dedede;
+	padding: 16px;
+	box-shadow: 3px 3px 5px #888;
+	max-width: 900px;
+	margin: auto;
+}
+
+#fotosdaPag{
+	margin-top: 16px;
+	height: 550px;
+}
